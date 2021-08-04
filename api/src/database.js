@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const URI = 'mongodb://localhost:8000/petfood'
+const URI = 'mongodb://localhost:27017/petfood'
 
 mongoose.set('useNewUrlParser', true)
 mongoose.set('useFindAndModify', false)
