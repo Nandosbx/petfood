@@ -1,7 +1,7 @@
 const Petshop = require('../models/petshop')
 const Product = require('../models/product')
 const petshops = require('./petfood.json')
-//const createRecipients = require('../services/pagarme').createRecipient
+const createRecipients = require('../services/pagarme').createRecipient
 
 // database
 require('../database')
